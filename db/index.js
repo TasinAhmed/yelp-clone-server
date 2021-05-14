@@ -1,5 +1,5 @@
 const Pool = require("pg").Pool;
 
-const pool = new Pool({ ssl: true });
+const pool = new Pool();
 
 module.exports = pool;
